@@ -8,6 +8,7 @@ public class FactoryProvider {
 	public static SessionFactory factory;
 	
 	public static SessionFactory getFactory() 
+	
 	{
 		if(factory==null) {
 			
